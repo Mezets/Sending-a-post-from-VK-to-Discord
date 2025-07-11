@@ -60,12 +60,12 @@ Railway автоматически развернет и запустит бот
 ### Способ 1: Через код
 1. Добавьте переменную в секцию настроек:
 ```python
-VK_GROUP_ID_5 = os.getenv('VK_GROUP_ID_3')
+VK_GROUP_ID_3 = os.getenv('VK_GROUP_ID_3')
 ```
 
 2. Добавьте в список проверки:
 ```python
-if VK_GROUP_ID_5:
+if VK_GROUP_ID_3:
     group_domains.append(VK_GROUP_ID_3)
 ```
 
@@ -106,7 +106,7 @@ vk-to-discord-bot/
 | `DISCORD_TOKEN` | Токен Discord бота | - |
 | `DISCORD_CHANNEL_ID` | ID Discord канала | - |
 | `VK_TOKEN` | Токен пользователя VK | - |
-| `VK_GROUP_ID` | Domain первой группы | `your_vk_group` |
+| `VK_GROUP_ID` | Domain первой группы | `-` |
 | `VK_GROUP_ID_2` | Domain второй группы | - |
 | `CHECK_INTERVAL` | Интервал проверки (сек) | `30` |
 
