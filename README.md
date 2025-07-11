@@ -60,12 +60,12 @@ Railway автоматически развернет и запустит бот
 ### Способ 1: Через код
 1. Добавьте переменную в секцию настроек:
 ```python
-VK_GROUP_ID_5 = os.getenv('VK_GROUP_ID_3')
+VK_GROUP_ID_3 = os.getenv('VK_GROUP_ID_3')
 ```
 
 2. Добавьте в список проверки:
 ```python
-if VK_GROUP_ID_5:
+if VK_GROUP_ID_3:
     group_domains.append(VK_GROUP_ID_3)
 ```
 
