@@ -95,6 +95,7 @@ if VK_GROUP_ID_5:
 vk-to-discord-bot/
 ├── main.py                # Основной файл бота
 ├── requirements.txt        # Зависимости Python
+├── Dockerfile             # Контейнеризация для Railway
 └── README.md              # Документация
 ```
 
