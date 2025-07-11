@@ -136,9 +136,8 @@ MIT License
 2. Посмотрите логи в Railway Dashboard
 3. Создайте Issue в репозитории
 
-
-*Бот написан с помощью [Claude AI](https://claude.ai)*
-
 ---
 
 ⭐ Если проект вам понравился, поставьте звездочку! 
+
+## *Бот написан с помощью [Claude AI](https://claude.ai)*
